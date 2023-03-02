@@ -1,0 +1,24 @@
+﻿{
+  "configurations": [
+    {
+      "name": "debug-2019",
+      "generator": "Visual Studio 16 2019 Win64",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\build-${name}",
+      "cmakeCommandArgs": "-DMAYA_VERSION=2019",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": ""
+    },
+    {
+      "name": "release-2019",
+      "generator": "Visual Studio 16 2019 Win64",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\build-${name}",
+      "cmakeCommandArgs": "-DMAYA_VERSION=2019",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": ""
+    }
+  ]
+}

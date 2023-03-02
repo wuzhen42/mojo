@@ -1,0 +1,11 @@
+build-*/
+
+.vs/
+
+*.pyc
+
+maya/lib
+maya/bin
+maya/plug-ins
+
+blender/lib

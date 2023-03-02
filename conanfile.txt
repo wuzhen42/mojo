@@ -1,0 +1,12 @@
+[requires]
+capnproto/0.10.1
+glm/0.9.9.8
+glew/2.1.0
+zmqpp/4.2.0
+boost/1.77.0
+
+[generators]
+cmake
+
+[options]
+boost:header_only=True
